@@ -285,16 +285,3 @@ body{
     order: 0;
     flex-grow: 1;
 }
-
-footer{
-    position: fixed;
-    bottom: -15px;
-    right: 50%;
-    text-align: center;
-    padding: 40px;
-}
-
-.copyright{
-    color: #000000;
-    font-size: 13px;
-}
