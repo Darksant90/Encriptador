@@ -1,0 +1,300 @@
+body{
+    background-color: #e5e5e5;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.ingreseTexto{
+    position: absolute;
+    width: 680px;
+    height: auto;
+    left: 240px;
+    top: 168px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: darkblue;
+    resize: none;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.ingreseTexto2{
+    position: absolute;
+    width: 680px;
+    height: 660px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    overflow-x: hidden;
+    color: darkblue;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: #0A3871;
+    border-radius: 50px;
+}
+
+.letreroConsejo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+.consejo{
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.botonEncriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+.textoBotonEncriptar{
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.botonDesencriptar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.textoBotonDesencriptar{
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.rectangulo{
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.muneco{
+    position: absolute;
+    z-index: 2;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+}
+
+.textosDerecha{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+}
+
+.primerTexto{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.estilo1{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.estilo2{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    top: -555px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #495057;
+    max-height: 780px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#botonCopiar{
+    z-index: 2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    display: none;
+}
+
+.textoBotonCopiar{
+    width: 288px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+footer{
+    position: fixed;
+    bottom: -15px;
+    right: 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright{
+    color: #000000;
+    font-size: 13px;
+}

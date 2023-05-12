@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Challenge ONE G5</title>
+    </head>
+
+    <body>
+        <div class="logo">
+            <img class="logoImg" src="img/Logo.svg" alt="Logo Alura">
+        </div>
+        <div>
+            <textarea name="ingreseTexto" oncontextmenu="limpiar()" onclick="limpiar()" onblur="textoDefault()" class="ingreseTexto" id="inputTexto" cols="100" rows="100">Ingrese el texto aquí</textarea>
+        </div>
+        <div>
+            <img src="img/Muñeco.svg" alt="Muñeco" class="muneco" id="imgDer">
+            <div class="textosDerecha">
+                <p id="texto" class="primerTexto">Ningún mensaje fue encontrado</p>
+                <p id="texto2" class="estilo1">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+        <button id="botonCopiar" type="button" name="button" onclick="copiar()">
+            <p class="textoBotonCopiar">Copiar</p>
+        </button>
+        <div class="rectangulo">
+        </div>
+        <div class="letreroConsejo">
+            <img src="img/exclamacion.png">
+            <p class="consejo">Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="botones">    
+            <button type= "button" class="botonEncriptar" id="encriptar" onclick="encriptar()">
+                <p class="textoBotonEncriptar">Encriptar</p>
+            </button>
+            <button type= "button" class="botonDesencriptar" id="desencriptar" onclick="desencriptar()">
+                <p class="textoBotonDesencriptar">Desencriptar</p>
+            </button>
+        </div>
+    </body>
+    <footer>
+        <p class="copyright">&copy Copyright Santiago Guzmán Vera - 2023</p>
+    </footer>
+</html>
